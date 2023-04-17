@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conversor de Video para MP3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <?php include 'converter.php';?>
+    <h1>Conversor de Video para MP3</h1>
+    <form action="converter.php" method="post">
+      <label for="video-url">URL do video:</label>
+      <input type="text" name="video-url" id="video-url" required>
+      <button type="submit">Converter</button>
+    </form>
+  </body>
+</html>
